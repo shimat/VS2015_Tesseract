@@ -4,5 +4,5 @@
 	branch = master
 [submodule "tesseract_3.05"]
 	path = tesseract_3.05
-	url = https://github.com/tesseract-ocr/tesseract.git
+	url = https://github.com/shimat/tesseract.git
 	branch = 3.05
