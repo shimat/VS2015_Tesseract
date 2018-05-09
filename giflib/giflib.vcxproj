@@ -133,8 +133,10 @@
       <StringPooling>true</StringPooling>
       <SDLCheck>false</SDLCheck>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
-      <AdditionalOptions>/Qvec-report:1</AdditionalOptions>
+      <AdditionalOptions>
+      </AdditionalOptions>
       <FloatingPointModel>Fast</FloatingPointModel>
+      <DisableSpecificWarnings>4018;4028;4244;4267;%(DisableSpecificWarnings)</DisableSpecificWarnings>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -158,8 +160,10 @@
       <StringPooling>true</StringPooling>
       <SDLCheck>false</SDLCheck>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
-      <AdditionalOptions>/Qvec-report:1</AdditionalOptions>
+      <AdditionalOptions>
+      </AdditionalOptions>
       <FloatingPointModel>Fast</FloatingPointModel>
+      <DisableSpecificWarnings>4018;4028;4244;4267;%(DisableSpecificWarnings)</DisableSpecificWarnings>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>

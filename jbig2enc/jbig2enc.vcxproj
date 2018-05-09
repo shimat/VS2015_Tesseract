@@ -180,8 +180,9 @@
       <StringPooling>true</StringPooling>
       <FloatingPointModel>Fast</FloatingPointModel>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
-      <AdditionalOptions>/Qvec-report:1</AdditionalOptions>
-      <DisableSpecificWarnings>4305</DisableSpecificWarnings>
+      <AdditionalOptions>
+      </AdditionalOptions>
+      <DisableSpecificWarnings>4244;4267;4305;4334;4477;4996;5001;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <CompileAs>CompileAsCpp</CompileAs>
     </ClCompile>
     <Link>
@@ -211,8 +212,9 @@
       <StringPooling>true</StringPooling>
       <FloatingPointModel>Fast</FloatingPointModel>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
-      <AdditionalOptions>/Qvec-report:1</AdditionalOptions>
-      <DisableSpecificWarnings>4305</DisableSpecificWarnings>
+      <AdditionalOptions>
+      </AdditionalOptions>
+      <DisableSpecificWarnings>4244;4267;4305;4334;4477;4996;5001;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <CompileAs>CompileAsCpp</CompileAs>
     </ClCompile>
     <Link>

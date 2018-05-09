@@ -184,7 +184,8 @@
       <StringPooling>true</StringPooling>
       <SDLCheck>false</SDLCheck>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
-      <AdditionalOptions>/Qvec-report:1</AdditionalOptions>
+      <AdditionalOptions>
+      </AdditionalOptions>
       <FloatingPointModel>Fast</FloatingPointModel>
     </ClCompile>
     <Link>
@@ -210,7 +211,8 @@
       <StringPooling>true</StringPooling>
       <SDLCheck>false</SDLCheck>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
-      <AdditionalOptions>/Qvec-report:1</AdditionalOptions>
+      <AdditionalOptions>
+      </AdditionalOptions>
       <FloatingPointModel>Fast</FloatingPointModel>
     </ClCompile>
     <Link>

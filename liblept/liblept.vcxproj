@@ -211,9 +211,10 @@
       <StringPooling>true</StringPooling>
       <SDLCheck>false</SDLCheck>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
-      <AdditionalOptions>/Qvec-report:1</AdditionalOptions>
+      <AdditionalOptions>
+      </AdditionalOptions>
       <FloatingPointModel>Fast</FloatingPointModel>
-      <DisableSpecificWarnings>4244;4305</DisableSpecificWarnings>
+      <DisableSpecificWarnings>4018;4101;4244;4267;4305;4334;4390;4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -243,9 +244,10 @@
       <StringPooling>true</StringPooling>
       <SDLCheck>false</SDLCheck>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
-      <AdditionalOptions>/Qvec-report:1</AdditionalOptions>
+      <AdditionalOptions>
+      </AdditionalOptions>
       <FloatingPointModel>Fast</FloatingPointModel>
-      <DisableSpecificWarnings>4244;4305</DisableSpecificWarnings>
+      <DisableSpecificWarnings>4018;4101;4244;4267;4305;4334;4390;4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>

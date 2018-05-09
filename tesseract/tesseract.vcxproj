@@ -159,6 +159,7 @@
       <AdditionalOptions>/Qvec-report:1</AdditionalOptions>
       <FloatingPointModel>Fast</FloatingPointModel>
       <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4267;4756;%(DisableSpecificWarnings)</DisableSpecificWarnings>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -186,6 +187,7 @@
       <AdditionalOptions>/Qvec-report:1</AdditionalOptions>
       <FloatingPointModel>Fast</FloatingPointModel>
       <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4267;4756;%(DisableSpecificWarnings)</DisableSpecificWarnings>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
